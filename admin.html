@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Panel</h1>
+    <a href="index.html" class="admin-link">View Blog</a>
+  </header>
+  <main class="admin-panel">
+    <form id="post-form">
+      <input type="text" id="title" placeholder="Post Title" required>
+      <textarea id="content" placeholder="Post Content" required></textarea>
+      <button type="submit">Add Post</button>
+    </form>
+    <div id="admin-posts"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
